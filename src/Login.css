@@ -1,0 +1,20 @@
+.login,
+.image {
+  min-height: 100vh;
+}
+.bg-image {
+  background-image: url('https://kuwaitsvc.com/en/wp-content/uploads/2023/01/AdobeStock_289478703-scaled-1-scaled-1.jpg');
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+.div-login{
+    width: 70%;
+    height: 30%;
+    margin-left: 50px;
+    margin-top: 5%;
+}
+.p-forgotpassword{
+    text-align: right;
+    
+}

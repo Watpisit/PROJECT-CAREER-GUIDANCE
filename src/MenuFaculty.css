@@ -1,0 +1,135 @@
+.row-content-faculty-details {
+  --bs-gutter-x: 0;
+  --bs-gutter-y: 0;
+  height: 100%;
+}
+
+.div-content-faculty-details {
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  height: 97%;
+  width: 98%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.col-content-faculty-details {
+  padding-left: 0px;
+  padding-right: 0px;
+  background-color: rgb(199, 199, 199);
+  margin-top: 7.2vh;
+  margin-left: 17%;
+  height: 100%;
+  width: 83%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row-content-faculty-add {
+  --bs-gutter-x: 0;
+  --bs-gutter-y: 0;
+  height: 100%;
+}
+
+
+.col-content-faculty-add {
+  padding-left: 0px;
+  padding-right: 0px;
+  background-color: rgb(199, 199, 199);
+  margin-top: 7.2vh;
+  margin-left: 17%;
+  padding-bottom: 0.5%;
+  height: 100%;
+  width: 83%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 7;
+
+}
+
+.div-content-faculty-add {
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  height: 97%;
+  width: 98%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  z-index: 8;
+  padding: 1%;
+  padding-bottom: 2%;
+}
+
+.header-faculty-add {
+  margin-top: 2%;
+  margin-left: 2%;
+  line-height: 2;
+  font-size: 30px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 0.5%;
+
+}
+
+.header-faculty-add img {
+  width: 80px;
+  height: 80px;
+}
+
+.text-faculty {
+  margin-left: 2%;
+  font-size: 30px;
+}
+
+.img-logoedit {
+  width: 70px;
+  height: 70px;
+}
+
+.div-form-add {
+  margin-left: 2%;
+  width: 100%;
+  height: 100%;
+  margin-top: 2%;
+}
+
+.div-faculty-details {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1%;
+  display: flex;
+  justify-content: center;
+
+
+}
+
+.faculty-details {
+  background-color: rgb(209, 209, 209);
+  width: 70%;
+  height: 100%;
+  padding: 20px;
+  position: relative;
+}
+
+.faculty-details p {
+  font-size: 17px;
+}
+
+.icon-faculty-details {
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: flex-end; /* จัดเรียงไอคอนไปด้านขวา แนวแกนเอ็ก*/
+  align-items: center; /* จัดให้ไอคอนและลิงค์อยู่กึ่งกลางตามแนวY ํ */
+}
+
+.icon-faculty-details img {
+  width: 55px;
+  height: 55px;
+  margin-right: 20px;
+  cursor: pointer;  
+}

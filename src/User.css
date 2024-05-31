@@ -1,0 +1,75 @@
+
+
+/* .custom-nav-link{
+    border-bottom: 1px solid white;
+} */
+.div-bg-gray {
+    background-color: rgb(204, 204, 204);
+    height: 100%;
+    padding: 2%;
+    /* opacity: 0.5; */
+    margin-top: 0%;
+    color: rgb(0, 0, 0);
+}
+
+.div-bg-white {
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 2%;
+    border-radius: 10px;
+    padding: 1%;
+
+}
+
+.choice {
+    font-size: 20px;
+    color: black;
+}
+
+/* ซ่อนจุดสีฟ้าของ input radio เมื่อไม่ถูกเลือก  not(:checked) =false*/
+input[type="radio"]:not(:checked)+label::before {
+    border-color: transparent;
+    /* ทำให้เป็นสีใสเมื่อไม่ถูกเลือก */
+    background-color: transparent;
+    /* ทำให้เป็นสีใสเมื่อไม่ถูกเลือก */
+}
+
+/* เพิ่มสไตล์สำหรับ input radio เมื่อถูกเลือก checked=true*/
+input[type="radio"]:checked+label::before {
+    border-color: #007bff;
+    /* สีเมื่อถูกเลือก, สามารถเปลี่ยนเป็นสีที่คุณต้องการ */
+    background-color: #007bff;
+    /* สีเมื่อถูกเลือก, สามารถเปลี่ยนเป็นสีที่คุณต้องการ */
+}
+
+
+
+.btn-green {
+    background-color: rgb(32, 205, 32);
+}
+
+.user-menu{
+    width: 20%;
+    margin-right: 4%;
+    
+}
+
+.box-menu{
+    background-color: #f0f0f0; /* สีเทา */
+  border: 1px solid #000; /* ขอบสีดำ */
+  padding: 2%;
+  cursor: pointer;
+}
+
+.gray-box {
+    background-color: #e2e1e1;
+    border-radius: 10px; /* ขอบโค้ง */
+    padding: 10px;
+    margin-bottom: 10px; 
+    
+  }
+
+  .text-indent {
+    text-indent: 20px; 
+    margin-top: -3%;
+  }
+  

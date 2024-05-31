@@ -1,0 +1,82 @@
+.col-content-profile {
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: rgb(199, 199, 199);
+    margin-top: 7.2vh;
+    margin-left: 17%;
+    height: 100%;
+    width: 83%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.div-content-profile {
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    height: 97%;
+    width: 98%;
+}
+
+.row-content-profile{
+    --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+    height: 92.8vh;
+}
+
+
+
+.profile {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    margin-left: 2%;
+    height: 20%;
+
+    display: flex;
+    align-items: center;
+}
+
+.logo-profile {
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+.text-profile {
+    margin-left: 2%;
+    font-size: 30px;
+}
+
+.bg-profile {
+    width: 50%;
+    height: 30%;
+    background-color: rgb(209, 209, 209);
+    font-size: 22px;
+    margin-left: 2%;
+    margin-top: 2%;
+    padding: 30px;
+}
+
+.text-detail {
+    color: black;
+}
+ 
+.img-edit {
+    height: 55px;
+    width: 55px;
+    cursor: pointer;
+}
+
+.div-edit {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.img-eye{
+   width: 20px;
+   cursor: pointer;
+}

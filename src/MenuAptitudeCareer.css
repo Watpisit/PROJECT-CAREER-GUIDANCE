@@ -1,0 +1,112 @@
+.col-content-aptitudecareer {
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: rgb(199, 199, 199);
+    margin-top: 7.2vh;
+    margin-left: 17%;
+    height: 100%;
+    width: 83%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 7;
+}
+
+.row-content-aptitudecareer-heightlock {
+    --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+    height: 92.8vh;
+}
+
+.row-content-aptitudecareer-maxheight {
+    --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+    height: 100%;
+}
+
+
+.div-content-aptitudecareer-true {
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    height: 97%;
+    width: 98%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding-bottom: 1%;
+}
+
+.header-aptitudecareer-add{
+    margin-top: 2%;
+    margin-left: 2%;
+    line-height: 2;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 2%;
+    font-size: 30px;
+    justify-content: center;
+    
+}
+
+
+  .header-aptitudecareer-add img{
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+  }
+
+  .div-editassessment {
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    margin-left: 2%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    /* ตรงกลางแกน Y */
+  }
+  
+  .text-assessment {
+    margin-left: 2%;
+    font-size: 30px;
+  }
+  
+  .img-edit {
+    width: 70px;
+    height: 70px;
+  }
+
+  .div-button-aptitude-career{
+    display: flex;
+    margin-top: 20%;
+  }
+  
+  .button-save {
+    margin-right: 5px;
+    height: 40px;
+    width: 100px;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .button-cancel {
+    margin-left: 5px;
+    height: 40px;
+    width: 100px;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  
+  .text-content{
+    font-size: 22px;
+    color: black;
+  }
+
+    
+  

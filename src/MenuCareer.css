@@ -1,0 +1,75 @@
+.row-content-faculty-details {
+  --bs-gutter-x: 0;
+  --bs-gutter-y: 0;
+  height: 100%;
+}
+
+.div-content-faculty-details {
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  height: 97%;
+  width: 98%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.col-content-faculty-details {
+  padding-left: 0px;
+  padding-right: 0px;
+  background-color: rgb(199, 199, 199);
+  margin-top: 7.2vh;
+  margin-left: 17%;
+  height: 100%;
+  width: 83%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tooltip-inner {
+  max-width: 800px;
+  /* ความกว้างสูงสุด */
+  max-height: 400px;
+  /* ความสูงสูงสุด */
+  overflow-y: auto;
+  /* การเลื่อนแนวตั้งหากข้อมูลเกินขนาดสูงสุด */
+}
+
+
+.row-content-course-heightlock {
+  --bs-gutter-x: 0;
+  --bs-gutter-y: 0;
+  height: 92.8vh;
+}
+
+
+.div-content-course-false {
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  height: 89.4vh;
+  width: 98%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  padding-bottom: 1%;
+}
+
+.col-content-course {
+  padding-left: 0px;
+  padding-right: 0px;
+  background-color: rgb(199, 199, 199);
+  margin-top: 7.2vh;
+  margin-left: 17%;
+  height: 100%;
+  width: 83%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 7;
+}
+
+.div-form-career-add {
+  margin-left: 2%;
+  width: 100%;
+  margin-top: 2%;
+}

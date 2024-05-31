@@ -1,0 +1,353 @@
+.col-content-ranking {
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: rgb(199, 199, 199);
+    margin-top: 7.2vh;
+    margin-left: 17%;
+    height: 100%;
+    width: 83%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.div-content-ranking {
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    height: 97%;
+    width: 98%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.row-content-ranking-add {
+    --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+    height: 100%;
+}
+
+.row-content-ranking-true {
+    --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+    height: 92.8vh;
+}
+
+.gray-background-ranking {
+    background-color: rgb(196, 195, 195);
+    margin: -3.1% -2% -1.0% -1%;
+    padding-bottom: 1%;
+    opacity: 0.6;
+    padding-top: 3.1%;
+    padding-left: 1%;
+
+}
+
+
+
+
+.header {
+    width: 60%;
+    display: flex;
+    align-items: flex-start;
+
+}
+
+.div-table {
+    height: 67.3vh;
+
+}
+
+.table {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.table img {
+    width: 40px;
+    height: 40px;
+}
+
+
+
+
+.div-button-loading-ranking {
+    height: 65.3vh;
+    position: absolute;
+    width: 81.4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 15%;
+
+}
+
+.div-button-loading-ranking button {
+    height: 50px;
+    width: 150px;
+
+}
+
+
+.div-alert-delete-ranking {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* กรอบทำให้ alert อยู่ตรงกลาง */
+}
+
+
+.alert-delete-ranking {
+    width: auto;
+    height: 265px;
+    color: rgba(0, 0, 0);
+    background-color: rgba(255, 255, 255);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-20%, -50%);
+    border: 0px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+    opacity: 1;
+    z-index: 100;
+}
+
+.alert-delete-ranking-success {
+    width: 390px;
+    height: 265px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-20%, -55%);
+    border: 0px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+    z-index: 100;
+}
+
+.alert-delete-ranking section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.alert-delete-ranking-success section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.alert-delete-ranking p {
+    color: rgb(110, 110, 110);
+    line-height: 4;
+
+}
+
+.alert-delete-ranking-success p {
+    color: rgb(110, 110, 110);
+    line-height: 4;
+}
+
+.alert-delete-ranking img {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    height: 80px;
+    width: 80px;
+
+}
+
+.alert-delete-ranking-success img {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    height: 80px;
+    width: 80px;
+
+}
+
+
+.alert-button-ranking {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.alert-button-ranking button {
+    width: 100px;
+    height: 40px;
+    margin-right: 5px;
+    margin-left: 5px;
+
+}
+
+
+.logo-Back{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 2%;
+    margin-bottom: 1%;
+}
+
+.logo-Back img{
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+}
+
+
+
+.logo-Back div{
+   color: black;
+    margin-left: 1%;
+    font-size: 22px;
+}
+
+
+
+
+
+
+
+
+
+/*File ADD */
+.div-addranking {
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    margin-left: 2%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    /* ตรงกลางแกน Y */
+}
+
+
+
+.img-add {
+    width: 70px;
+    height: 70px;
+}
+
+/* ADD */
+
+
+/* File Add */
+.text-ranking {
+    margin-left: 2%;
+    font-size: 30px;
+}
+
+.img-logoedit {
+    width: 70px;
+    height: 70px;
+}
+
+.header-ranking-add {
+    margin-top: 2%;
+    margin-left: 2%;
+    line-height: 2;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    margin-bottom: 2%;
+}
+
+.div-table-add {
+    height: 100%;
+    margin-bottom: 1%;
+
+}
+
+.form-text {
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.form-year {
+    width: 580px;
+}
+
+.button-save {
+    margin-right: 5px;
+    height: 40px;
+    width: 100px;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-cancel {
+    margin-left: 5px;
+    height: 40px;
+    width: 100px;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .div-button{
+    margin: 2%;
+    justify-content: center;
+}
+
+.div-button-year{
+    margin: 2%;
+    display: flex;
+    margin-left: -24%;
+} */
+
+/* File Add */
+
+
+/* File Edit */
+
+.header-ranking-edit {
+    margin-top: 2%;
+    margin-left: 2%;
+    line-height: 2;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 2%;
+}
+
+
+.div-button {
+    display: flex;
+  }
+  
+  .button-save {
+    margin-right: 5px;
+    height: 40px;
+    width: 100px;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .button-cancel {
+    margin-left: 5px;
+    height: 40px;
+    width: 100px;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+/* File Edit */

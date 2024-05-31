@@ -1,0 +1,102 @@
+.col-content-editprofile {
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: rgb(199, 199, 199);
+    margin-top: 7.2vh;
+    margin-left: 17%;
+    height: 100%;
+    width: 83%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.div-content-editprofile {
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    height: 97%;
+    width: 98%;
+}
+
+.row-content-editprofile{
+    --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+    height: 92.8vh;
+}
+
+
+.div-editprofile{
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    margin-left: 2%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+  /* ตรงกลางแกน Y */
+}
+
+.text-profile{
+    margin-left: 2%;
+    font-size: 30px;
+}
+
+.img-edit{
+    width: 70px;
+    height: 70px;
+}
+
+.div-form{
+    margin-left: 2%; 
+    width: 100%; 
+    height: 500px;
+}
+
+.div-input{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2%;
+}
+
+.div-label{
+    margin-right: 10px;
+}
+
+.pre-label{
+    font-size: 22px;
+}
+
+.div-form-control{
+    width: 300px;
+}
+
+.div-button{
+    display: flex;
+}
+.button-save{
+     margin-right: 5px;
+     height: 40px;
+     width: 100px;
+     font-size: 22px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.button-cancel{
+        margin-left: 5px;
+        height: 40px;
+        width: 100px;
+        font-size: 22px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+.alert-danger{
+   
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

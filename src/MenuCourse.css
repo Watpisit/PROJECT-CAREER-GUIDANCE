@@ -1,0 +1,265 @@
+.col-content-course {
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: rgb(199, 199, 199);
+    margin-top: 7.2vh;
+    margin-left: 17%;
+    height: 100%;
+    width: 83%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 7;
+}
+
+.row-content-course-heightlock {
+    --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+    height: 92.8vh;
+}
+
+.row-content-course-maxheight {
+    --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+    height: 100%;
+}
+
+
+.div-content-course-true {
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    height: 97%;
+    width: 98%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding-bottom: 1%;
+}
+
+
+.div-content-course-false {
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    height: 89.4vh;
+    width: 98%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding-bottom: 1%;
+}
+
+
+
+/* Menucourse */
+.header-course {
+    margin-top: 2%;
+    margin-left: 2%;
+    line-height: 2;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 100%;
+    align-items: center;
+    margin-bottom: 2%;
+}
+
+.header-course img {
+    height: 80px;
+    width: 80px;
+
+}
+
+
+.div-table-ranking {
+    height: 100%;
+    margin-bottom: 2%;
+
+}
+
+.table-ranking {
+    margin: 0 auto;
+    width: 80%;
+}
+
+
+/* Menucourse */
+
+
+/* MenuDetail */
+
+.header-course-add{
+    margin-top: 2%;
+    margin-left: 2%;
+    line-height: 2;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-bottom: 2%;
+    font-size: 30px;
+    justify-content: center;
+    
+}
+
+
+  .header-course-add img{
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+  }
+
+  .div-table-add {
+    height: 100%;
+    margin-bottom: 1%;
+
+}
+
+.table {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.table img {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+
+.width-th{
+    width: 750px;
+}
+
+
+.logo-Back{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 2%;
+    margin-bottom: 1%;
+}
+
+.logo-Back img{
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+}
+
+
+
+.logo-Back div{
+   color: black;
+    margin-left: 1%;
+    font-size: 22px;
+}
+
+
+/* MenuDetail */
+
+.div-alert-delete-course {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* กรอบทำให้ alert อยู่ตรงกลาง */
+}
+
+
+.alert-delete-course {
+    width: auto;
+    height: 265px;
+    color: rgba(0, 0, 0);
+    background-color: rgba(255, 255, 255);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-20%, -50%);
+    border: 0px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+    opacity: 1;
+    z-index: 100;
+}
+
+.alert-delete-course-success {
+    width: 390px;
+    height: 265px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-20%, -55%);
+    border: 0px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+    z-index: 100;
+}
+
+.alert-delete-course section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.alert-delete-course-success section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.alert-delete-course p {
+    color: rgb(110, 110, 110);
+    line-height: 4;
+
+}
+
+.alert-delete-course-success p {
+    color: rgb(110, 110, 110);
+    line-height: 4;
+}
+
+.alert-delete-course img {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    height: 80px;
+    width: 80px;
+
+}
+
+.alert-delete-course-success img {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    height: 80px;
+    width: 80px;
+
+}
+
+
+.alert-button-course {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.alert-button-course button {
+    width: 100px;
+    height: 40px;
+    margin-right: 5px;
+    margin-left: 5px;
+
+}
+
+
+
+
+/* ADD EDIT */
+
+
+
+
+/* ADD EDIT */
+
